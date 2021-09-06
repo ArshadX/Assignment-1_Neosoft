@@ -9,8 +9,11 @@ body{
     color: rgb(24, 24, 24)
 }
 /*header work*/
+header{
+    height: auto;
+}
 #nav-bar{
-    height: 5%;
+    height: 8%;
     background-color:#ffffff;
     color: red;
     padding-bottom: 20px;  
@@ -68,5 +71,10 @@ footer{
        padding-left: 100px;
     }
 }
-
+@media only screen and (min-width:420px) and (max-width:991px){
+    #button{
+        position: relative;
+        left: 12em;
+    }
+}
 
