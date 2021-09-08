@@ -18,6 +18,24 @@ header{
     color: red;
     padding-bottom: 20px;  
 }
+.bg{
+    background-image: url('../images/hbg2.png');
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-size: 100% 100%;
+}
+.flexbox{
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+.flexbox1{
+    margin-top: 6em;
+    margin-bottom: 8em;
+}
+#flexbox{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
 #bg-1{
     position: relative;
     height: 39rem;
@@ -29,6 +47,29 @@ header{
     top: -720px;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.g1{
+    background-image: url(../images/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bor1{
+    background-image: url(../images/tooltip-bg.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: 100% 100%;
+    padding: 2.5em;
+}
+.bor1 p{
+    font-size: 2em;
+    color: greenyellow;
+}
+.bor1:hover{
+    background-image: url(../images/tooltip-hover.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: 100% 100%;
+    padding: 2.5em;
 }
 #S1{
     border: 0px;
