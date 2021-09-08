@@ -30,9 +30,9 @@ header{
 }
 .flexbox1{
     margin-top: 6em;
-    margin-bottom: 8em;
+    margin-bottom: 1em;
 }
-#flexbox{
+.flexbox{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5em;
 }
@@ -118,4 +118,62 @@ footer{
         left: 12em;
     }
 }
-
+@media only screen and (min-width:320px) and (max-width:375px){
+    .g1{
+        background-image: url(../images/hbg5.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .g1 h2{
+        font-size: 3vw;
+    }
+    .g1 p{
+        font-size: 3vw;
+    }
+    .bor1{
+        background-image: url(../images/tooltip-bg.png);
+        background-repeat: no-repeat;
+        background-position: inherit;
+        background-size: 5.5vw 5.5vw;
+        padding: 0.2em;
+    }
+    .bor1 p{
+        font-size: 2.4vw;
+        color: green
+    }
+    .bor1:hover{
+        background-image: url(../images/tooltip-hover.png);
+        background-repeat: no-repeat;
+        background-position: fixed;
+        background-size: 5.5vw 5.5vw;
+        padding: 0.2em;
+    }
+    .flexbox1{
+        margin-top: -1em;
+        margin-bottom: -1em;
+    }
+    .flexbox1 i{
+        font-size: 1.5vw;
+    }
+    #form{
+        padding: .80rem .18rem;
+        font-size: 1.5vw;
+    }
+    /*slide 1--->*/
+    .bg{
+        background-image: url('../images/hbg21.png');
+        background-repeat: no-repeat;
+        background-attachment:local;
+        background-size: 100%;
+    }
+    .flexbox{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 0.7em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    #z1{
+        padding: 1rem 100% !important;
+        opacity: 0.8;
+    }
+}
